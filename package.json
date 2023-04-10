@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "dev": "webpack-dev-server --mode development",
+    "dev:netlify": "netlify dev",
     "build": "webpack --mode production",
     "lint": "eslint --fix --ext .js,.vue"
   },
@@ -29,6 +30,7 @@
     "eslint-plugin-vue": "^9.10.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
+    "netlify-cli": "^13.2.2",
     "postcss": "^8.4.21",
     "postcss-loader": "^5.3.0",
     "sass": "^1.60.0",
